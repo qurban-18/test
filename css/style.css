@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../imgs/slide-1.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: -25px;
+}
+
+.header-text > .h1{
+    font-size: 44px;
+}
+
+.header-text > .btn:hover{
+    background: transparent;
+    border-color: white;
+}
+
+.sec-two-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.sec-two-card p{
+    transition: .3s;
+}
+
+.sec-two-card:hover p{
+    opacity: 0;
+}
+
+.sec-three-card > i{
+    background: white;
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 140px;
+    font-size: 40px;
+    color: #F7A804;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+    transition: .4s;
+}
+
+.sec-three-card > i:hover{
+    background: #F7A804;
+    cursor: pointer;
+    color: white;
+}
+
+.testim > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testim-txt p{
+    padding: 10px 30px;
+}
+
+.testim-txt i{
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    font-size: 26px;
+    color: rgba(0,0,0,0.1)
+}
+
+.blog-card-text i{
+    font-size: 11px;
+}
+
+.blog-card-text .btn{
+    color: white;
+}
+
+.blog-card-text .btn:hover{
+    background: transparent;
+    color: #FFC107;
+}
